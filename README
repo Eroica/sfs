@@ -1,0 +1,13 @@
+# sfs — SimpleFileSystem
+
+A Lua library for simple filesystem operations for when `luafilesystem` is too much. Aims at full POSIX and win32 compatibility.
+
+The main difference is that when `mkpath` is called with nested folders, it will create all intermediate folders (similar to Window's implementation).
+
+New methods will follow.
+
+## License
+
+See `LICENSE` file.
+
+The code in `mkpath.c` is taken from the OpenBSD project, published under BSD License.
